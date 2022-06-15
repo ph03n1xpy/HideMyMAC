@@ -48,4 +48,4 @@ current_mac = str(mac_checker())
 if current_mac == mac:
     print(f"[+] MAC address has been successfully changed to {current_mac}")
 else:
-    print("MAC address could not be changed, check the entered MAC address")
+    print("MAC address could not be changed, make sure you are running the tool with root privileges using sudo or check the entered MAC address")
